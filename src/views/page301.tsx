@@ -1,7 +1,7 @@
 function View() {
   return (
     <div className="About">
-      <p>About</p>
+      <p>page301111111111111111111111111111</p>
     </div>
   )
 }
