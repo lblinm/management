@@ -1,5 +1,29 @@
-// .loginbox {
-//   .ant-input {
-//     background-color: rgba(255, 255, 255, 0);
-//   }
-// }
+.loginbox {
+  .ant-input,
+  .ant-input-password {
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgb(105, 105, 223);
+    height: 38px;
+    color: white;
+    &::placeholder {
+      color: rgba(105, 105, 223, 0.5); /* 将占位符文本设置为白色 */
+    }
+  }
+  .ant-input .ant-input-password {
+    height: 28px;
+  }
+  .ant-input-password-icon.anticon,
+  .ant-input-password-icon.anticon:hover {
+    color: rgb(105, 105, 223);
+  }
+  .captchaBox {
+    display: flex;
+    .captchaImg {
+      margin-left: 20px;
+      cursor: pointer;
+    }
+  }
+  .loginBtn {
+    height: 38px;
+  }
+}
